@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 13%;
+    backdrop-filter: blur(25px);
+
+}
+.login-form h1 {
+text-align: center;
+margin-bottom: 30px;
+color: white;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.login-form label{
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+}
+#nba{
+    margin-left: 39%;
+}
+
+.login-form button {
+width: 100%;
+background-color: #1D1CE5;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.login-form button:hover {
+background-color: white;
+color: black;
+}
+
+.login-form .checkbox {
+margin-left: 10px;
+
+}
+#rememberMe{
+    color: white;
+}
+</style>
+
+</head>
+<body background="loginImage.png">
+
+<div class="login-form" >
+    <!--<h1>Login</h1>-->
+    <img id="nba" src="nba.png">
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <button type="submit">Login</button>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+</body>
+</html>
